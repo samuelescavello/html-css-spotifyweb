@@ -1,0 +1,178 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.debug {
+    border: 1px solid red;
+}
+
+/* color  */
+:root {
+	--color-primary: #141922;
+	--color-sidebar: #000000;
+	--color-toolbar: #282828;
+	--color-secondary: #7D7F84;
+	--color-green: #adff2f;
+	--color-white: #ffffff;
+}
+
+/* general */
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.wrapper{     
+    height: 100vh;    
+    background-color: var(--color-primary);     
+    /* overflow: hidden; */ 
+}
+
+#toolbar{
+    background-color: var(--color-toolbar);
+    height: 100px;
+}
+
+.content{
+    height: calc(100vh - 100px);
+    width: 100%;
+    background-color: ;
+}
+
+#sidebar{
+    background-color: var(--color-sidebar);
+    width: 250px;
+    height: 100%;
+    
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+/* main  */
+   /* nav/bar  */
+main{
+    width: calc(100% - 250px);
+    padding: 100px 20px 20px 20px;
+    overflow-y: auto;
+    color: var(--color-white);
+}
+
+nav{
+    margin-bottom: 20px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: var(--color-secondary);
+}
+
+nav ul a{
+    margin: 15px;
+}
+
+.card{
+    width: calc(100% / 6);
+}
+
+.img-hover{
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    font-size: 2em;
+    display: none;
+}
+
+.card-img{
+    position: relative;
+}
+
+.card-img:hover .img-hover{
+    display: block;
+}
+
+.fa-regular{
+    font-size: 5em;
+}
+
+/* header  */
+
+.header{
+    background-color: #1a1a1a4f;
+    color: var(--color-white);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 250px;
+    z-index: 1000;
+    width: calc(100% - 250px);
+    justify-content: end;
+    align-items: center;
+    padding:20px 5px 30px 5px;
+}
+
+
+
+/* text  */
+
+h2{
+    margin-bottom: 30px;
+}
+
+.card-title>*{
+    text-align: center;
+    padding: 5px;
+}
+
+dd{
+    color: var(--color-secondary);
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+ /* UTILITY  */
+
+.btn{
+    border: 2px var(--color-white) solid;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: var(--color-white)
+}
+
+
+ /* flex utility  */
+
+.d-flex{
+    display: flex;
+}
+
+.justify{
+    justify-content: center;
+}
+
+.align{
+    align-content: center;
+    align-items: center;
+}
+
+
+
+ /* media query */
