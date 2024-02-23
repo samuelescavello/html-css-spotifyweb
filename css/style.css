@@ -101,6 +101,10 @@ nav ul a{
     position: relative;
 }
 
+.card-img img:hover{
+    opacity: 0.5;
+}
+
 .card-img:hover .img-hover{
     display: block;
 }
