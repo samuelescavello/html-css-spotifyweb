@@ -234,6 +234,92 @@ padding-bottom: 30px;
     padding-left: 10px;
 }
 
+/* toolbar */
+
+.cont-img{
+    width: 70px;
+    padding-left: 10px;
+}
+
+.cont-title-tool{
+    padding-left: 10px;
+}
+
+.cont-font{
+    padding-left: 60px;
+}
+
+#toolbar a i{
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.cont-font a i{
+    padding-right: 10px;
+    color: var(--color-secondary);
+}
+
+.font-right a i{
+    color: var(--color-white);
+}
+
+.bars{
+    width: 150px;
+    height: 10px;
+    border: 3px solid var(--color-secondary);
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.left{
+    width: 20%;
+    background-color: var(--color-white);
+}
+
+.right{
+    width: 80%;
+}
+
+#cont-central{
+    padding-left: px;
+}
+
+#cont-central a i{
+    color: var(--color-white);
+    font-size: 35px;
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+#central-bar span{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#central-bar{
+    margin-top: 30px;
+}
+
+.barsbig{
+    width: 400px;
+    height: 10px;
+    border: 3px solid var(--color-secondary);
+    border-radius: 20px;
+}
+
+.leftbig{
+    width: 20%;
+    background-color: var(--color-white);
+}
+
+.rightbig{
+    width: 80%;
+    background-color:;
+}
+
+
+
+
 /* header  */
 
 .header{
