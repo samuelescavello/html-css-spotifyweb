@@ -31,6 +31,7 @@ ul {
 
 body{
     font-family: "Montserrat", sans-serif;
+    color: var(--color-white);
 }
 
 .wrapper{     
@@ -47,7 +48,6 @@ body{
 .content{
     height: calc(100vh - 100px);
     width: 100%;
-    background-color: ;
 }
 
 #sidebar{
@@ -86,6 +86,8 @@ nav ul a{
 nav a:hover{
     color: var(--color-white);
 }
+
+/* cardd */
 
 .card{
     width: calc(100% / 6);
@@ -128,6 +130,109 @@ nav a:hover{
     border-radius: 50%;
 }
 
+/* sidebarr */
+
+.logo-side{
+width: 60%;
+padding-left:20px;
+padding-top: 20px;
+padding-bottom: 30px;
+}
+
+#sidebar li img{
+    width: 30px;
+}
+
+#mainlist ul{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#sidebar ul li{
+    display: flex;
+    align-items: center;
+}
+
+#sidebar a{
+    color: var(--color-white);
+    padding-left: 10px;
+}
+
+#mainlist ul li{
+    border-left: 5px solid rgba(255, 255, 255, 0.0) ;
+    padding-bottom: 10px;
+}
+
+#mainlist li a{
+    color: var(--color-secondary);
+}
+
+#mainlist ul li:hover{
+    border-left: 5px solid var(--color-green)
+}
+
+#sidebar h3{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.fa-square-plus{
+    font-size: 40px;
+}
+
+#second-list li{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#second-list li a{
+    color: var(--color-secondary);
+}
+
+#mainlist a:hover{
+    color: var(--color-white);
+}
+
+#second-list a:hover{
+    color: var(--color-white);
+}
+
+#ap img{
+    width: 25px;
+}
+
+#ap{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 2px solid var(--color-secondary);
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+#ap a{
+    padding-top: 2px;
+    color: var(--color-secondary);
+}
+
+#ap-bottom img{
+    width: 30px;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-secondary);
+    border-radius: 50%;
+    justify-content: center;
+    overflow: hidden;
+    background-color: var(--color-secondary);
+    margin-left:20px;
+}
+
+#ap-bottom h3{
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
 
 /* header  */
 
@@ -148,6 +253,14 @@ nav a:hover{
 
 
 /* text  */
+.tx-white{
+    color: var(--color-white);
+}
+
+
+.uppercase{
+    text-transform: uppercase;
+}
 
 h2{
     font-size: 2.5em;
@@ -162,7 +275,7 @@ h2{
 }
 
 h3{
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
 }
 
 .card-title>*{
@@ -172,7 +285,7 @@ h3{
 
 dd{
     color: var(--color-secondary);
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
 }
 
 .dd-general{
@@ -211,6 +324,12 @@ dd{
     align-items: center;
 }
 
+.s-btw{
+    justify-content: space-between;
+}
 
+.column{
+    flex-direction: column;
+}
 
  /* media query */
