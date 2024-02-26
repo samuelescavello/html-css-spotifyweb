@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -12,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>spotify</title>
 </head>
@@ -27,6 +27,7 @@
             <div id="sidebar" class="d-flex s-btw column">
                 <div>
                     <img class="logo-side" src="img/logo.svg" alt="">
+                    <img src="img/logo-small.svg" alt="" class="small-logo">
                     <div id="mainlist">
                         <ul>
                             <li>
@@ -43,9 +44,9 @@
                             </li>
                         </ul>
                     </div>
-                
+
                     <h3 class="uppercase">playlist</h3>
-                    <div id="second-list">
+                    <div id="second-list" class="d-flex"> 
                         <ul>
                             <li>
                                 <a href="#"><i class="fa-solid fa-square-plus"></i></a>
@@ -278,7 +279,7 @@
         </div>
 
         <div id="toolbar" class="d-flex s-btw">
-            <div class="d-flex align">
+            <div class="d-flex align" id="cont-left">
                 <div class="cont-img">
                     <img src="img/sinister.jpeg" alt="">
                 </div>
@@ -292,7 +293,7 @@
                 </div>
             </div>
 
-            <div>
+            <div class="central">
                 <div id="cont-central" class="d-flex justify">
                     <a href="#"><i class="fa-solid fa-shuffle"></i></a>
                     <a href="#"><i class="fa-solid fa-backward-step"></i></a>
@@ -312,7 +313,7 @@
                 </div>
             </div>
 
-            <div class="font-right d-flex align">
+            <div class="font-right d-flex align" id="cont-right">
                 <a href="#"><i class="fa-solid fa-bars"></i></a>
                 <a href="#"><i class="fa-solid fa-desktop"></i></a>
                 <a href="#"><i class="fa-solid fa-volume-high"></i></a>
@@ -320,7 +321,7 @@
                     <div class="left"></div>
                     <div class="right"></div>
                 </div>
-                
+
             </div>
         </div>
 
