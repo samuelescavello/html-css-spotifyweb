@@ -331,13 +331,7 @@ nav a:hover {
 
 .leftbig{
     width: 100px;
-    background-color: var(--color-white);
-}
-
-.leftbig:hover{
-    width: 100px;
-    background-color: var(--color-green);
-    cursor: pointer;
+    background-color: var(--color-secondary)
 }
 
 .rightbig{
