@@ -290,6 +290,10 @@ nav a:hover {
     color: var(--color-secondary);
 }
 
+.cont-font a i:hover{
+    color: red;
+}
+
 .font-right a i{
     color: var(--color-white);
 }
@@ -327,6 +331,10 @@ nav a:hover {
     height: 10px;
     border: 3px solid var(--color-secondary);
     border-radius: 20px;
+}
+
+.barsbig:hover{
+    cursor: pointer;
 }
 
 .leftbig{
@@ -421,6 +429,10 @@ dd {
     margin-right: 25px;
     text-transform: uppercase;
     color: var(--color-white)
+}
+
+.btn:hover{
+    color: var(--color-secondary);
 }
 
 
