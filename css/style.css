@@ -570,3 +570,32 @@ dd {
     }
 
 }
+
+@media screen and (max-width:476px){
+    #cont-left .cont-title-tool{
+        display: none;
+    }
+
+    .fa-bars{
+        display: none;
+    }
+
+    .fa-desktop{
+        display: none;
+    }
+
+    #central-bar{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-height: 230px){
+       
+    .header{
+        display: none;
+    }
+
+    main{
+        overflow: hidden;
+    }
+}
