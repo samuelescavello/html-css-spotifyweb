@@ -596,6 +596,27 @@ dd {
     }
 
     main{
-        overflow: hidden;
+        display: none;
     }
+
+    .central{
+        margin-top: 10px;
+    }
+
+    #central-bar{
+        margin-top: 10px;
+    }
+
+    .fa-volume-high{
+        margin-right: 15px;
+    }
+
+    .fa-shuffle{
+        display: none;
+    }
+
+    .fa-arrow-rotate-right{
+        display: none;
+    }
+
 }
